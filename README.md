@@ -1,63 +1,82 @@
-# MARTHA's BaE's Turon & Banana Lumpia Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>MARTHA's BaE's - Turon & Banana Lumpia</title>
+    <link rel="stylesheet" href="design.css" />
+</head>
+<body>
 
-Welcome to the official website project for **MARTHA's BaE's**, a business specializing in delicious Filipino snacks — Turon and Banana Lumpia. This project contains the source code for a simple, clean, and professional business webpage showcasing the product, pricing, ingredients, preparation steps, and contact information.
+<header>
+    <h1>MARTHA's BaE's</h1>
+    <p>Your home for the best Turon & Banana Lumpia</p>
+</header>
 
----
+<nav>
+    <a href="#about">About</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#ingredients">Ingredients</a>
+    <a href="#procedure">How to Order</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-## Features
+<main>
+    <section id="about">
+        <h2>Turon or Banana Lumpia</h2>
+        <p class="description">
+            Turon is a beloved Filipino snack, often called banana lumpia because of its resemblance to Filipino lumpia. It’s a sweet treat made from saba bananas wrapped in crispy lumpia wrappers, fried with caramelized sugar for a delightful golden finish. Perfect as a dessert or snack, Turon has become a staple in Filipino meryenda culture.
+        </p>
+    </section>
 
-- Responsive and easy-to-read layout
-- Clear navigation menu for quick access to sections
-- Detailed product description and images
-- Pricing information clearly highlighted
-- Ingredients and preparation steps presented in structured sections
-- Contact information for orders and inquiries
-- Simple and elegant design with consistent color scheme
+    <section id="pricing" class="pricing">
+        ₱10.00 each | ₱28.00 for 3 pcs
+    </section>
 
----
+    <section id="image" class="image-container">
+        <img src="TuronRecipe.jpg" alt="Delicious Turon - Filipino Snack" />
+    </section>
 
-## Technologies Used
+    <section id="ingredients">
+        <h3 class="section-title">Ingredients</h3>
+        <ul>
+            <li>6 pieces saba bananas or plantains, cut lengthwise in half</li>
+            <li>1 cup ripe jackfruit, sliced</li>
+            <li>1 1/2 cups sugar</li>
+            <li>12 pieces lumpia wrappers</li>
+            <li>2 cups cooking oil</li>
+        </ul>
+    </section>
 
-- HTML5 for semantic page structure
-- CSS3 for styling and layout
-- (Optional) Replace or update images with your own product photos
+    <section id="procedure">
+        <h3 class="section-title">How to Order & Preparation</h3>
+        <div class="procedure-step">
+            <strong>Step 1:</strong> Roll each banana on a plate of sugar to coat thoroughly.
+        </div>
+        <div class="procedure-step">
+            <strong>Step 2:</strong> Place the sugar-coated banana on a lumpia wrapper, add a slice of jackfruit on top.
+        </div>
+        <div class="procedure-step">
+            <strong>Step 3:</strong> Fold and seal the wrapper edges with water. Heat oil in a pan and add some sugar; wait until the sugar floats.
+        </div>
+        <div class="procedure-step">
+            <strong>Step 4:</strong> Fry the wrapped bananas until the wrappers turn golden brown and the sugar caramelizes on the surface. Serve hot.
+        </div>
+    </section>
 
----
+    <section id="contact">
+        <h3 class="section-title">Contact Us</h3>
+        <p>
+            Interested in ordering or have questions? Reach out to us at:<br />
+            <strong>Email:</strong> info@marthadecorona28@gmail.com<br />
+            <strong>Phone:</strong> +63 912 345 6789<br />
+            <strong>Address:</strong> 123 Mango Street, Manila, Philippines
+        </p>
+    </section>
+</main>
 
-## Getting Started
+<footer>
+    &copy; 2025 MARTHA's BaE's. All rights reserved.
+</footer>
 
-1. **Clone or download** this repository to your local machine.
-
-2. Ensure you have the following files in the same directory:
-   - `index.html` (main webpage)
-   - `styles.css` (stylesheet)
-   - `TuronRecipe.jpg` (image used on the page; replace with your own image if desired)
-
-3. **Open `index.html`** in any modern web browser to view the webpage.
-
----
-
-## Customization
-
-- Update the text content in `index.html` to reflect your business details, contact info, or menu.
-- Replace the image `TuronRecipe.jpg` with your own product images.
-- Modify `styles.css` to change colors, fonts, or layout according to your branding.
-
----
-
-## Contact
-
-For questions or support regarding this project, please contact:
-
-- Email: info@marthasbae.com
-- Phone: +63 912 345 6789
-
----
-
-## License
-
-This project is provided as-is for personal or business use. Feel free to modify and distribute.
-
----
-
-Thank you for choosing MARTHA's BaE's! We hope this website helps you share your delicious Turon with the world.
+</body>
+</html>
